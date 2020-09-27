@@ -1,0 +1,164 @@
+/*
+ * Fontes
+ */
+
+
+@font-face {
+  font-family: "EuphoriaScript";
+  src: url('../fonts/EuphoriaScript.otf') format('opentype'); 
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.avatar-pic {
+width: 150px;
+}
+.container {
+  padding: 1px 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  color: #fff;
+  font-family: "Comfortaa", "Helvetica", sans-serif;
+}
+
+#titulo{
+    font-size: 40px;
+    color: #ffff;
+    font-family: EuphoriaScript;
+    padding-bottom: 50px;
+
+}
+
+#imagemlogin{
+    width:200px;
+
+    height:103px;
+}
+
+.login {
+
+  max-width: 280px;
+  min-height: 400px;
+  margin: 30px auto;
+  background-color: rgba(10,10,10,.68);
+  border-radius: 20px;
+}
+
+#conteudo{
+    padding-top: 90px;
+}
+.login-icon {
+  margin: 50px 65px;
+}
+
+.login-form {
+  padding: 8px 20px 20px;
+  height: 120px;
+  width: 100%;
+  /*background-color: green;*/
+}
+
+.row {
+  display: none;
+}
+
+
+.password-row {
+  position: relative;
+  height: 40px;
+ /* background-color: grey;*/
+  border-bottom: 1px solid;
+}
+
+#frase{
+    text-align: center;
+}
+.form-control{
+  position: absolute;
+  width: 240px;
+  height: 30px;
+  margin: 5px 0;
+  background: transparent;
+  border: none;
+}
+
+.senha{
+    position: relative;
+    margin-top: 50px;
+}
+
+
+.call-to-action {
+  margin: 22px 0;
+  height: 130px;
+  width: 100%;
+  /*background-color: blue;*/
+}
+
+button {
+  display: block;
+  width: 240px;
+  height: 40px;
+  padding: 0;
+  margin: 10px 20px 10px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #22c08a;
+  border: none;
+  border-radius: 20px;
+  transition: background-color .10s ease-in-out;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+button:hover {
+  background-color: #26d69a;
+}
+
+button:active {
+  background-color: #1eaa7a;
+}
+
+p {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  margin: 0 40px;
+  font-size: 10px;
+  color: rgba(255,255,255,.4);
+  /*background-color: yellow;*/
+}
+
+p a {
+  color: #fff;
+}
+
+label,
+p a:hover {
+  -webkit-cursor: pointer;
+  cursor: pointer;
+}
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+
+
+
