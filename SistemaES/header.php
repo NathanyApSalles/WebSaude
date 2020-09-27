@@ -64,7 +64,7 @@
 
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
-            <a href="../index.php">
+            <a href="index.php">
               <span class="hidden-xs">Sair</span>
             </a>
           </li>
