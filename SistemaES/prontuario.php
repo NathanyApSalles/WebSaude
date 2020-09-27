@@ -59,8 +59,6 @@ if (isset($result)) {
 			<div class="col-md-12">
 				<h1 align="center">Prontuário</h1>
 			</div>
-			<div class="col-sm-3">
-			</div>
 			<div class="col-sm-6">
 
 				<!-- <div class="input-group h2">
