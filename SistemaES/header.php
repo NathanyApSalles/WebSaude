@@ -117,7 +117,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li id="fornecedoresvisualizar"><a href="fornecedores.php"><i class="fa fa-circle-o"></i> Visualizar</a></li>
+            <li id="fornecedoresvisualizar"><a href="visualizarRelatorio.php"><i class="fa fa-circle-o"></i> Visualizar</a></li>
 
           </ul>
         </li>
