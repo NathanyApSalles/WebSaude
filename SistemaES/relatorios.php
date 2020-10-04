@@ -89,6 +89,7 @@ if (isset($result)) {
 						<?php
 $stmt = $relat->viewUnidade();
 while ($row = $stmt->fetch(PDO::FETCH_OBJ)) {
+	$unidade = $row->unidadeAtendimento;
 	?>
 						</thead>
 						<tbody>
@@ -108,7 +109,8 @@ while ($row = $stmt->fetch(PDO::FETCH_OBJ)) {
 
 			</div> <!-- /#list -->
 			<form action="gerarPDF.php" method="post">
-			<button type="submit" class="btn btn-warning">Gerar PDF</button>
+			<input type="hidden" name="unidadeAtendimento" value="<?php echo $unidade ?>">
+			 <button type="submit" class="btn btn-warning">Gerar PDF</button>
 			</form>
 		</div> <!-- /#main -->
 		<?php
